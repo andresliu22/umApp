@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'un' do
+  use_frameworks!
+
+  # Pods for un
+  
+  pod 'SwiftyJSON'
+  pod 'Alamofire', '4.9.1'
+  pod 'SwiftJWT'
+  pod 'Charts', :git => 'https://github.com/danielgindi/Charts.git', :branch => '4.0.0'
+  pod 'SideMenu'
+  
+end
